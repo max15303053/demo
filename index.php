@@ -1,8 +1,9 @@
-<?php
+<pre><?php
 
-	echo 'this is my first git';
-
-	echo 'this is my linuux git';
-
-	echo 'this is xiaofeng linux git';
+	function autoload(){
+		echo 1;
+	}
+	spl_autoload_register('autoload');
+	
+	$x = new A;
 ?>
